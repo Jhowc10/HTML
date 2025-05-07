@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela completa</title>
+    <style>
+        table{
+            border: 1px solid #000;
+            text-align: center;
+            height: 300px;
+            width: 100%;
+        }
+        thead{
+            background-color: #0f0;
+            color: #00f;
+        }
+        tbody{
+            background-color: #ff0;
+            color: #f0f;
+        }
+        tfoot{
+            background-color: #00f;
+            color: #f0f;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Legenda da tabela</caption>
+        <thead>
+            <tr> <!-- Linha 1 da tabela -->
+                <td colspan="3">Conteúdo thead</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!-- Linha 2 da tabela-->
+                <td>Conteúdo tbody</td>
+                <td>Conteúdo tbody</td>
+                <td>Conteúdo tbody</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr> <!-- Linha 3 da tabela-->
+                <td colspan="3">Conteúdo tfoot</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

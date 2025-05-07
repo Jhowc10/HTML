@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+        5 tipos de atributos que podem ser colocados na tag meta:
+
+        name=""
+        http-equiv=""
+        content=""
+        charset=""
+        property=""
+     -->
+
+    <!-- Atributo: name = é destinado ao sistema de busca -->
+    <meta name="author" content="Gilberto dos Santos"> <!-- name = seu conteúdo é destinado ao sistema de busca  -->
+
+    <meta name="copyright" content="₢ 2010 (nome da instituição)"> <!-- copyright = declara o direito autoral da página --> 
+
+    <meta name="description" content="Informações sobre o conteúdo da página"> <!-- description = Permite colocar uma breve descrição da página, auxiliando os mecanismos de busca-->
+    
+    <meta name="keywords" content="palavras-chaves"> <!-- Auxilia mecanismos que usam palavras chaves para busca, as frases ou palaveras devem ser sempre separaddas por ,-->
+    <meta name="DC.Suject" content="palavras-chaves">    <!--   Idem ao de cima / mesma coisa           //                   //                 // -->
+
+    <meta name="robots" content="all"> <!-- Especifica indexação para os robos de busca-->
+                        <!--     all = Valor padrão, vazio. O robô não recebe nenhuma informação
+                               index = Os robôs incluem a página normalmente
+                              follow = Além de indexar, segue os links para outras páginas que ela contém
+                             noindex = Os links são seguidos, mas a página não é indexada
+                            nofollow = A página é indexada, mas os links não são seguidos
+                                none = Os robôs ignoram a página
+                           noarchive = É válido apenas para o GOOGLE, a página não é arquivada
+                        -->
+
+    <meta name="googlebot" content="all"> <!-- Diz ao GOOGLE que você não deseja que a página seja indexada / OBS: Mas continuará indexada nos outros buscadores-->
+
+    <meta name="rating" content="general"> <!-- Classifica a sensura da página-->
+                            <!-- general = Para qualquer idade
+                                14 years = Censura 14 anos
+                                  mature = Para pessoas acima de 18 anos
+                            -->
+
+    <meta name="DC.creator" content="Gilberto"> <!-- Mesma coisa do author -->
+
+    <meta name="DC.creator.address" content="e-mail"> <!-- Podemos indicar o e-mail do dono dá página-->
+
+    <meta name="DC.publisher" content="Nome da organização"> <!-- É utilizado para indicar qual organização é responsavel pelo documento-->
+
+    <meta name="custodian" content="Gilberto"> <!-- Usada para indicar o responsável pela página-->
+
+    <meta name="DC.date.created" content="2017-05-16"> <!-- Utilizado para indicar a data da criação da página-->
+
+    <meta name="DC.date.modified" content="2017-02-01"> <!-- Importante para busca de datas-->
+
+    <meta name="DC.identifier" content="http://www.uninove.br"> <!-- Indica a URL do documento-->
+
+    <meta name="DC.fotmat" content="text/html"> <!-- Especifica os tipos de dados contidos no documento.-->
+                               <!-- image/jpg
+                                    image/gif
+                                    video/quicktime
+                               -->
+
+<!-- .......................................................................................................................................................................... -->
+
+    <!-- Atributo: http-equiv = seu conteúdo é destinado ao navegador-->
+
+    <meta http-equiv="pragma" content="no-cache"> <!-- Sempre usar estes dois juntos -->
+    <meta http-equiv="cache-control" content="no-cache"> <!-- É utilizado para determinar o comportamentoda página em relação ao armazenamento do cache -->
+                                        <!--  no-cache = A página não é armazenada em cache de nenhuma forma
+                                                public = Os dados da página é armazenado e usado por diversos usuários de um mesmo navegador.
+                                               private = O cache é armazenado para um usuário apenas
+                                              no-store = Nesta caso a página não é arquivada, mas é feito um cache temporário   
+                                        -->
+
+    <meta http-equiv="content-language" content="fr, pt-br, en-US, it"> <!-- Declara os idiomas contidos na página, pode se indicar mais de um idioma -->
+
+    <meta http-equiv="expires" content="wed, 15 jan 2019 12:10:03 GMT"> <!-- Define a data validade de uma página da web, ao dar a data ela é considerada expirada atpe que a data  seja redefinida -->
+
+    <meta http-equiv="refresh" content="50"> <!-- ou -->
+    <meta http-equiv="refresh" content="50:url=http://uninove.br"> <!-- Especifica um tempo em segundos para atualizar o browser, se quiser, pode se adicionar uma url paraq ser redirecionado -->
+
+    <meta http-equiv="imagetoolbar" content="no"> <!-- No internet explorer, elimina aquela barra de opções que aparece ao passarmos o mause em uma imagem -->
+    
+    <meta http-equiv="content-script-type" content="text/javascript"> <!-- Define o tipo de linguagem de script do documento -->
+
+    <meta http-equiv="content-style-type" content="text/css"> <!-- Define o tipo de linguagem de estilo -->
+
+<!-- .............................................................................................................................................................................. -->
+
+    <!-- Atributo property = Seu conteúdo é destinado ao uso de redes sociais -->
+
+    <meta property="og:title" content="Usando o face Open Graph">  <!-- Define o tipo de título do objeto a ser apresentado -->
+
+    <meta property="og:image" content="https://enderecodaimagem.com/imagem"> <!-- Define a imagem a ser apresentada quando a página for compartilhada -->
+
+    <meta property="og:url" content="http://uninove.br"> <!-- Define o endereço da página -->
+
+    <meta property="og:type" content="video.other"> <!-- Define o tipo de objeto que está sendo apresentado, pode sr definido como: -->
+                                <!--  video.movie
+                                      website
+                                      video.other
+                                      article 
+                                -->
+
+    <meta property="og:description" content="Breve descritivo do conteúdo da página ou texto que chame atenção"> <!-- -->
+
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transição - transition</title>
+    <style>
+        /* Elemento que vamos aplicar a transição */
+        div{
+            width: 300px;
+            height: 200px;
+            background-color: #00f;
+            transition: width 2s, height 4s;
+            transition-timing-function: ease-out; /* Controla a forma de como a transição funcionará */
+        }
+        /* Elemento div com o estado hover - quando o mause estiver sobre o elemento - que ativará a transição até 600px de largura */
+        div:hover{  /* Quando passar o mause */
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

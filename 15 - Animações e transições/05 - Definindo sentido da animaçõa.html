@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes</title>
+    <style>
+        /* Codigo da animação */
+    @keyframes teste{
+        0%{
+            background-color: #ff0;
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 200px;
+        } /* Posição inicial*/
+        25%{
+            background-color: #f00;
+            left: 400px;
+            top: 0px;
+            width: 200px;
+            height: 100px;
+        }
+        50%{
+            background-color: #0f0;
+            left: 400px;
+            top: 0px;
+            width: 200px;
+            height: 100px;
+        }
+        75%{
+            background-color: #0f0;
+            left: 0px;
+            top: 400px;
+            width: 200px;
+            height: 100px;
+        }
+        100%{
+            background-color: #ff0;
+            left: 0px;
+            top: 0px;
+            width: 300px;
+            height: 200px;
+        } /* Volta a posição inicial */
+    }
+
+    /* Elemento que vamos aplicar a animação */
+    div{
+        width: 300px;
+        height: 200px;
+        position: relative;
+        background-color: #00f;
+        animation-name: teste; /* Chama aanimação */
+        animation-duration: 10s;  /* Tempo de duração da animação*/
+        animation-delay: 5s; /* Tempo de espera da animação*/
+        animation-iteration-count: 4; /* Quantidade de vezes que ocorrerá a animação */
+        animation-direction: alternate; /* Define o sentido da animação. Pode ser reverse ou alternate*/
+
+    }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

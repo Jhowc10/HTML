@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transição - transition</title>
+    <style>
+        /* Elemento que vamos aplicar a transição */
+        div{
+            width: 300px;
+            height: 200px;
+            background-color: #00f;
+            transition: width 4s, height 4s; /* Propriedade transition infrmando que será alterada a largura no campo de 4 segundos/Tempo de duração do movimento / Tudo elemento que querer adicionar tempo, terá que ser informado aqui */
+        }
+        /* Elemento div com o estado active - enquando  o elemento estiver clicado - que ativará a transição */
+        div:active{ /* Enquando estiver clicar */
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

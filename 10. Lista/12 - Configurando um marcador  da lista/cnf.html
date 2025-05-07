@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurando marcadore da lista</title>
+    <style>
+        ul{
+            list-style-type: none; /* Remove os marcadores */
+            padding: 0;
+            margin: 0;
+        }
+        ol{
+            list-style-type: none;
+            padding: 20px;
+            margin: 0;
+        }
+        li{
+            padding-left: 16px;
+        }
+        li:before{ /* formata o marcador */
+            content: "&"; /* Insere o marcador desejado */
+            color: blue;
+            font-size: 2em;
+            padding-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>Item da lista 1</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 3</li>
+    </ol>
+    <ul>
+        <li>Item da lista 1</li>
+        <li>Item da lista 2</li>
+        <li>Item da lista 3</li>
+    </ul>
+    
+</body>
+</html>

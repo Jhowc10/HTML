@@ -1,0 +1,275 @@
+/* 
+
+COMPLETAR O CÓDIGO ABAIXO PREENCHENDO AS FORMATAÇÕES DE CADA SELETOR 
+DE ACORDO COM O ARQUIVO STYLE_CSS_COMPLETO.PDF
+
+*/
+
+/* Sempre seguir a sequencia feita nos comentários */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+            /*        imagem           repeat   position*/
+    background:  url(images/img01.jpg) repeat-x  left top;
+    color: #212121;
+    /*    Tam       tipo de familia*/
+    font: 13px Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    margin-top: 0px;
+}
+h1{
+    font-size: 2.4em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+   font-size: 1.4em; 
+}
+p, ol, ul{
+    margin-bottom: 1.8em;
+    line-height: 160%; /* Espaço entre cada quebra de linah */
+}
+a {
+    color: #175500;  
+}
+a:hover{
+    text-decoration: none;
+    color: #ff0000;
+}
+a img{
+	border: none;
+}
+
+/* Header */
+
+#header{
+    background-color: #699c4d; /* Colocou um fundo atrás da imagem */
+    width: 900px; /* Praticamente um tamanho padrã para as páginas */
+	height: 130px;
+        /* T.L.B.R     margin*/
+    margin:   0px       auto;
+}
+#header a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+/* Logo */
+
+#logo{
+    float: left;
+                  /*    imagem         repeat    position   */
+    background: url(images/img03.jpg) no-repeat  left top;
+    padding-left: 70px;
+}
+#logo h1, #logo p{
+   margin: 0px;
+   line-height: normal;
+   font-weight: normal;
+   color: #ffffff;
+}
+#logo h1{
+    padding: 25px 0px 0px 0px;
+}
+
+/* Menu */
+
+#menu {
+    float: right;
+    background-color: #243F12;
+         /* Tam   style     cor */
+    border-top: 2px   solid  #9bc56f ;
+    margin: 30px 0 0 0;  /* Quando o vaslor for 0, náo precisa colocar a unidade */
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Tira os discos da lista */
+    line-height: normal;  /* Espaçamento das quebras de linha */
+}
+#menu li{
+    float: left;  /* assim como o display="inline", o float="left" tbm deixa a lista na mesma linha */
+    margin: 0px 0px 0px 1px;
+}
+#menu a{
+    display: block;
+    width: auto; /* a largura se adpata ao tamanho da página */
+    height: 28px;
+    padding: 12px 20px 0px 20px;
+             /*        imagem         repeart   position*/
+    background: url(images/img02.jpg) no-repeat right 50%;
+    /* Podemos misturar unidades no position */
+}
+#menu a:hover{
+    text-decoration: underline;
+}
+#menu .first{
+    background: none;
+}
+#menu .active a {
+
+}
+
+/* Page */
+
+#page {
+	
+
+}
+
+/* Content */
+
+#content {
+    width: 900px;  /* Mesma lardura do header */
+    margin: 0  auto;
+         /*  T.B  R.L*/
+    padding: 30px 0px;
+}
+
+.post 
+{
+	
+
+}
+
+.post .title 
+{
+	
+
+
+}
+
+.post .title a 
+{
+
+
+
+}
+
+.post .entry 
+{
+
+
+}
+.entry a{
+    
+}
+.entry ul{
+    
+}
+
+.post .meta 
+{
+
+	
+
+}
+.meta a{
+    
+}
+
+.post .byline {
+    
+	
+
+}
+
+/* Sidebar */
+
+#sidebar 
+{
+   
+}
+
+#sidebar-bgtop 
+{
+	
+
+}
+
+#sidebar-bgbtm 
+{
+	
+
+}
+
+#sidebar-content 
+{
+	
+
+}
+
+#sidebar ul 
+{
+	
+
+}
+
+#sidebar li ul{
+    
+    
+	
+
+}
+
+#sidebar h2 
+{
+    
+	
+
+}
+
+#sidebar a 
+{
+	
+
+}
+
+#sidebar a:hover 
+{
+	
+
+}
+
+/* Search */
+
+#search 
+{
+
+
+}
+
+#search form 
+{
+
+}
+
+#search fieldset {
+    
+}
+
+#search #s 
+{
+	
+
+}
+
+/* Footer */
+
+#footer {
+   
+    
+}
+
+#footer  p {
+    
+}
+
+#footer a {
+    color: white;
+}

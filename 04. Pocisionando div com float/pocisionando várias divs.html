@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionando várias div</title>
+    <style>
+        #geral{
+            background-color: bisque;
+            width: 900px;
+            height: 510px;
+            margin: auto;
+            border: 2px solid black;
+        }
+        #topo{
+            background-color: green;
+            width: 890px;
+            height: 100px;
+            margin: auto;
+            margin: 5px 5px 0px 5px;
+        }
+        #lado{
+            background-color: grey;
+            width: 250px;
+            height: 300px;
+            margin: 0px 0px 0px 5px;
+        }
+        #meio{
+            background-color: rgb(104, 188, 231);
+            width: 650px;
+            height: 300px;
+            display: inline;
+            float: right;
+            margin: 0px 5px 0px 0px;
+        }
+        #rodape{
+            background-color: yellow;
+            width: 890px;
+            height: 100px;
+            margin: auto;
+            margin: 0px 5px 5px 5px; 
+            clear: both;         
+        }
+    </style>
+</head>
+<body>
+    <div id="geral">
+        <div id="topo">Topo</div>
+        <div id="meio">Meio</div>
+        <div id="lado">Lado</div>
+        <div id="rodape">Rodapé</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEYFRAME</title>
+    <style>
+        /* Código da Animação */
+        @keyframes teste{ /* Criação do keyframe com nome teste */
+            from{   /* Inicio da animação */
+                background-color: #00f;
+                float: left;
+            }to{    /* Fim da animação */
+                background-color: #f00;
+                float: right;
+            }
+        }
+        /* Elemento que vamos aplicar a animação */
+
+        div{
+            width: 300px;
+            height: 200px;
+            background-color: #00f;
+            animation-name: teste;  /* Chamando a animação pelo nome dado no @keyframe */
+            animation-duration: 5s; /* tempo de duração da animação*/
+        } 
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

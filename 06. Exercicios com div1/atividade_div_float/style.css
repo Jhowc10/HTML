@@ -1,0 +1,317 @@
+/* 
+
+COMPLETAR O CÓDIGO ABAIXO PREENCHENDO AS FORMATAÇÕES DE CADA SELETOR 
+DE ACORDO COM O ARQUIVO STYLE_CSS_COMPLETO.PDF
+
+*/
+:root{
+    --cor1: #719c4e; 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body 
+{
+    font-size: 1em;
+    line-height: 1.5em;
+
+}
+
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+
+}
+
+h1{
+    font-size: 2em;	
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p, ol, ul 
+{
+    margin: 10px 0px;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+	
+
+}
+
+a img 
+{
+	
+
+}
+
+/* Header */
+
+#header 
+{
+	background-color: var(--cor1);
+    color: white;
+    height: 100px;
+}
+
+#header a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* Logo */
+
+#logo 
+{
+    background: url(images/img03.jpg) no-repeat;
+    background-size: contain;
+    margin-left: 90px;
+}
+
+#logo h1, #logo p {
+    margin: 0px;
+    text-indent: 90px;
+}
+
+#logo h1 {
+	padding: 10px 0px 0px 0px;
+}
+
+/* Menu */
+
+#menu 
+{
+    display: inline;
+    text-align: right;
+    
+
+}
+
+#menu ul 
+{
+	margin-right: 50px;
+ 
+
+}
+
+#menu li 
+{
+    background-color: #334425;
+    display: inline;
+	text-decoration: none;
+    padding: 5px; 
+    
+    
+    
+
+}
+
+#menu a {
+    padding: 0px;
+    
+	
+
+}
+
+#menu a:hover {
+    text-decoration: underline;
+
+	
+}
+
+#menu .first 
+{
+	
+
+}
+
+#menu .active a {
+
+
+
+}
+
+/* Page */
+
+#page {
+	
+
+}
+
+/* Content */
+
+#content {
+    width: 800px;
+    text-align: left;
+    margin: 30px 50px 0px 5px;
+    float: right;
+}
+
+.post 
+{
+	
+
+}
+
+.post .title 
+{
+	
+
+
+}
+
+.post .title a 
+{
+
+
+
+}
+
+.post .entry 
+{
+
+
+}
+.entry a{
+    color: var(--cor1);
+    text-decoration: underline;
+}
+.entry ul{
+    margin:  20px 0px 20px 50px;
+}
+
+.post .meta 
+{
+
+	
+
+}
+.meta a{
+    color: var(--cor1);
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.post .byline {
+    font-size: 0.9em;
+	
+
+}
+
+/* Sidebar */
+
+#sidebar 
+{
+    display: inline-block;
+    color: white;
+    font-size: 0.9em;
+    width: 300px;
+    margin: 45px 0px 0px 100px;
+}
+
+#sidebar-bgtop 
+{
+	
+
+}
+
+#sidebar-bgbtm 
+{
+	
+
+}
+
+#sidebar-content 
+{
+	
+
+}
+
+#sidebar ul 
+{
+	list-style-type: none;
+
+}
+
+#sidebar li ul{
+    
+    
+	
+
+}
+
+#sidebar h2 
+{
+    background-color: var(--cor1);
+	
+
+}
+
+#sidebar a 
+{
+	
+
+}
+
+#sidebar a:hover 
+{
+	
+
+}
+
+/* Search */
+
+#search 
+{
+
+
+}
+
+#search form 
+{
+
+}
+
+#search fieldset {
+    border: none;
+}
+
+#search #s 
+{
+	
+
+}
+
+/* Footer */
+
+#footer {
+    background-color: var(--cor1);
+    color: white;
+    height: 50px;
+    text-align: center;
+    
+}
+
+#footer  p {
+    
+}
+
+#footer a {
+    color: white;
+}

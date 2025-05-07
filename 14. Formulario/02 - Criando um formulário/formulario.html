@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="test.php" method="post" name="meu_formulario">
+        Login:<input type="text" name="login" id="#">
+        Senha:<input type="password" name="senha" id="#">
+
+        <p>
+            Sexo:<br>
+            <input type="radio" name="sexo" id="#">Masculino
+            <input type="radio" name="sexo" id="#">Feminino
+        </p>
+
+        <p>
+            Deseja receber informações por:<br>
+            <input type="checkbox" name="email" id="#">E-mail
+            <input type="checkbox" name="fone" id="#">Telefone
+            <input type="checkbox" name="correio" id="#">Correio
+        </p>
+
+        <p>
+            Selecione uma cor: <input type="color" name="cor" id="#">
+        </p>
+
+        <p>
+            Selecione uma data: <input type="date" name="data" id="#">
+        </p>
+
+        <p>
+            Selecione uma data antes de 27/08/2020: <input type="date" name="data_2023" id="#" max="2031-08-27">
+        </p>
+
+        <p>
+            Selecione uma data depois de 27/08/2023: <input type="date" name="data_2022" id="#" min="2022-12-30">
+        </p>
+
+        <p>
+            Selecione uma data e um horário:
+            <input type="datetime-local" name="data_hora_local" id="#">
+        </p>
+
+        <p>
+            Informe seu e-mail de contato: <input type="email" name="email" id="#">
+        </p>
+
+        <p>
+            Selecione o mês e o ano do seu nascimento:
+            <input type="month" name="nascimento" id="#">
+        </p>
+
+        <p>
+            Selecione um número qualquer: <input type="number" name="nurero" id="#">
+        </p>
+
+        <p>
+            Selecione um número de 0 a 10:
+            <input type="number" name="numero_registro" id="#" min="1" max="10">
+        </p>
+
+        <p>
+            De uma nota para os nossos serviços: 0
+            <input type="range" name="satisfacao" id="#" min="1" max="10">10
+        </p>
+
+        <p>
+            Digite uma palavra chave para pesquisa:
+            <input type="search" name="busca" id="#">
+        </p>
+
+        <p>
+            Informe o seu telefone:
+            <input type="tel" name="telefone" id="#">
+        </p>
+
+        <p>
+            Informe a hora do seu voo:
+            <input type="time" name="hora_voo" id="#">
+        </p>
+
+        <p>
+            Informe o endereço (url) do seu website:
+            <input type="url" name="website" id="#">
+        </p>
+
+        <p>
+            Selecione a semana do ano que deseja tirar licença:
+            <input type="week" name="licenca" id="#">
+        </p>
+
+        <p>
+            Selecione um arquivo para envio:
+            <input type="file" name="arquivo" id="#">
+        </p>
+
+        <p>
+            Botão de teste:
+            <input type="button" value="teste">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframe</title>
+    <style>
+        /* Código de animação */
+        @keyframes teste{  /* Criação do keyframe com o nome teste */
+            0%{           /* posição inicial */
+                background-color: #ff0;
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                background-color: #f00;
+                left: 400px;
+                top: 0px;
+            }
+            50%{
+                background-color: #0f0;
+                left: 400px;
+                top: 400px;
+            }
+            75%{
+                background-color: #f0f;
+                left: 0px;
+                top: 400px;
+            }
+            100%{  /* Volta a posição inicial */ 
+                background-color: #ff0;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    /* Aplicando a animação */
+            
+        div{
+            width: 300px;
+            height: 200px;
+            position: relative;  /* Definição da posição do elementoi */
+            background-color: #00f;
+            animation-name: teste;  /* chamando a animação pelo nome */
+            animation-duration: 10s; /* Tempo de duração da animação */
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

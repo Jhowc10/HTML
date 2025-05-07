@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition mais transform</title>
+    <style>
+        div{
+            width: 300px;
+            height: 200px;
+            background-color: #00f;
+            transition: width 2s, height 4s, transform 2s; /* Altera a altura e largura com tempos diferentes e transição */
+            transition-timing-function: ease-out; /* Deixa o fim mais lento */
+            transition-delay: 3s; /* atraso da transition */
+        }
+        div:hover{
+            width: 600px;
+            height: 300px;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

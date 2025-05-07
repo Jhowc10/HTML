@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transição - transition</title>
+    <style>
+        /* Elemento que vamos aplicar a transição */
+        img{
+            width: 300px;
+            height: 200px;
+            background-color: #00f;
+            transition: width 5s, height 9s; /* Propriedade transition infrmando que será alterada a largura no campo de 4 segundos/Tempo de duração do movimento / NÃO ESQUECER A VIRGULA */
+        }
+        /* Elemento div com o estado hover - quando o mause estiver sobre o elemento - que ativará a transição até 600px de largura */
+        img:hover{  /* Quando passar o mause */
+            width: 600px;
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <img src="moto-cafer.png" alt="moto">
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Elemento textarea</h2>
+    <!--
+        Cria uma caixa para grande quantidade de textos
+        rows="" - define a altura do textarea
+        cols="" - define a largura do textarea
+    -->
+
+    <form action="test.php" method="post" name="meu_formulário">
+        <p>
+            Deixe seu recado:<br>
+            <textarea name="recado" id="#" cols="30" rows="20">Deixe aqui seu recado para que possamos entrar em contato</textarea>
+        </p>
+
+        <p>
+            Selecione um Estado:
+            <select name="Estado" id="#">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="Nenhum" selected>Selecione um Estado</option>
+            </select>
+        </p>  
+        
+        <form id="form" method="post" action="">
+            <label for="feira">Feira<br>
+                <select name="select" id="feira">
+                    <option selected value="1">Escolha um item</option>
+                    <optgroup label="Verduras">
+                        <option value="pepino">Pepino</option>
+                        <optgroup label="Alface">
+                            <option value="roxa">Alface roxa</option>
+                            <option value="verde">Alface verde</option>
+                        </optgroup>
+                        <option value="agriao">Agrião</option>
+                        <option value="rucula">Rúcula</option>
+                    </optgroup>
+                </select>
+            </label>
+        </form>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+
+    
+
+</body>
+</html>

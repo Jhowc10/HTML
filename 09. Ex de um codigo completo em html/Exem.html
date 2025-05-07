@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina em HTML</title>
+    <style>
+        header{
+            background-color: #ccc;
+        }
+        
+        nav{
+            background-color: #ff0;
+        }
+        section{
+            background-color: #fff;
+            padding: 10px;
+            border: none;
+        }
+        article{
+            background-color: #0f0;
+            display: block;
+        }
+        aside{
+            background-color: rgb(109, 109, 140);
+            width: 50%;
+            float: left;
+        }
+        footer{
+            background-color: #000;
+            color: #fff;
+            height: 50px;
+        }
+        details{
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho-->
+        <nav> <!-- Links -->
+            <ul> <!-- Lista -->
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Nossos produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section> <!-- Seção do site -->
+        <article> <!-- Conteúdo principal do site -->
+            <header> <!--Cabeçalho, pode se usar no head e no body-->
+                <h2>Título do artigo</h2>
+                <p>
+                    Publicado em 22 de Março de 2017 por <a href="#">Author</a> - <a href="#">30 comentários</a>
+                </p>
+               
+            </header>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet consequatur, voluptatem nemo, ex placeat deleniti eligendi ratione vitae qui omnis nam quibusdam pariatur, ut aliquam dicta saepe explicabo mollitia. Vel!</p>
+            <footer> <!-- Rodapé -->
+                <details> <!-- Espaça que disponibiliza mais informações, aparece um seta -->
+                    <summary> <!-- Legenda para as informações -->
+                        Clique aqui para mas detalhes
+                    </summary>
+                    <p>Aqui você tem mais informações sobre os detalhes.</p>
+                </details>
+            </footer>
+        </article>
+    </section>
+    <section> <!-- Pode se criar mais de uma seção no body-->
+        <article> <!-- Pode se criar mais de um article no body -->
+            <aside> <!-- Cria menus laterais, banners relacionados ao conteudo do article -->
+                <h2>Aqui você pode saber mais</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid officiis aliquam sapiente molestiae unde est sit perspiciatis, velit recusandae molestias in nemo. Nulla facilis maiores rerum explicabo, nostrum possimus aspernatur?
+                </p>
+            </aside>
+            <aside> <!-- Pode se utilizar mais de um aside no body -->
+                <h2>Aqui você pode saber mais</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis aut provident reprehenderit delectus neque, amet perferendis. Nam velit dicta ut deserunt quae dignissimos similique tempore enim magni, aperiam autem accusantium?
+                </p>
+            </aside>
+        </article>
+    </section>
+    <section>
+        <article>
+            <header>
+                <h2>Título do artigo</h2>
+                <p>
+                    Publicado em 22 de Março de 2017 por <a href="#">Author</a> - <a href="#">30 comentários</a>
+                </p>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas inventore rem pariatur totam molestias commodi, cupiditate magni eum? Magni qui inventore non molestiae maiores, perspiciatis minus cumque optio ab deserunt.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Copyright 2017</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatibus odit earum similique esse cumque atque iusto pariatur sunt, temporibus dolorem molestiae nemo tenetur odio maiores. Voluptatibus maxime deleniti dolor!
+        </p>
+    </footer>
+</body>
+</html>

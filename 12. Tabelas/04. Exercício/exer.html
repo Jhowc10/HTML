@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie uma tabela</title>
+    <style>
+        body{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1em;
+            text-align: center;
+        }
+        table{
+            border-collapse:collapse;
+        }
+        caption{
+            text-align: right;
+            padding: 0px 55px 0px 0px;
+        }
+        .cabecalho{
+            width: 50px;
+            
+        }
+        thead td{
+            background-color: rgb(202, 199, 199);
+            border-color: rgb(255, 255, 255);
+            padding: 5px;
+        }
+
+        .valor1{
+            color: rgb(113, 186, 238);
+        }
+        .valor2{
+            color: rgb(78, 133, 242);
+        }
+        .valor3{
+            color: rgb(34, 95, 129);
+        }
+        .col1{
+            background-color: grey;
+        }
+        tr:nth-child(odd){
+            background-color: rgba(251, 251, 251, 0.23);
+        }
+        .col2{
+            background-color: rgb(69, 134, 225);
+        }
+        .col3{
+            background-color: rgb(21, 87, 210);
+        }
+        .col4{
+            background-color: rgb(69, 76, 87);
+        }
+        tbody{
+            color: white;
+        }
+        th, td{
+            border: 3px solid rgb(255, 255, 255);
+            width: 120px;
+            height: 20px;
+            padding: 3px;
+        }
+        .nada{
+            background-color: white;
+            border: none;
+            
+        }
+        .coluna1{
+            text-align: left;
+            color: black;
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="col1" >
+            <col class="col2" >
+            <col class="col3" >
+            <col class="col4" >
+        
+        </colgroup>
+
+        <caption>Conheça nossos planos</caption>
+        <thead>
+            <tr>
+                <th rowspan="3" class="nada"></th>
+                <td rowspan="3" class="cabecalho">PADRÃO<br> <strong class="valor1">R$ 10<br></strong> Por Mês</td>
+                <td rowspan="3" class="cabecalho">NEGOCIOS<br> <strong class="valor2">R$ 20<br></strong> Por Mês</td>
+                <td rowspan="3" class="cabecalho">PRÊMIO<br><strong class="valor3"> R$ 30<br></strong> Por Mês</td>
+            </tr>
+        
+            <tbody>
+                <tr>
+                    <td class="coluna1">Arm. de Disco</td>
+                    <td>10 GB</td>
+                    <td>50 GB</td>
+                    <td>100 GB</td>
+                </tr>
+                <tr>
+                    <td class="coluna1">Domínio</td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>Ilimitado</td>
+                </tr>
+                <tr>
+                    <td class="coluna1">Sub dominios</td>
+                    <td>10</td>
+                    <td>50</td>
+                    <td>Ilimitado</td>
+                </tr>
+                <tr>
+                    <td class="coluna1">Contas por email</td>
+                    <td>10</td>
+                    <td>50</td>
+                    <td>Ilimitado</td>
+                </tr>
+                <tr>
+                    <td class="coluna1">Suporte 27/7</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td class="coluna1">Cpanel</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td class="coluna1">Instalação grátis</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td> 
+                </tr>
+                <tr>
+                    <td class="coluna1">Modelos</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th class="nada"></th>
+                    <td>Inscrever-se</td>
+                    <td>Inscrever-se</td>
+                    <td>Inscrever-se</td>
+                </tr>
+            </tfoot> 
+
+        </thead>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<body>
+    <!-- Jeito 1 -->
+    <!-- loop faz o audio tocar indefinidamente -->
+    <audio src="meu_audio.mp3" controls autoplay loop></audio>
+
+    <!-- Jeito 2 -->
+    <!-- O atributo controls adiciona uma barra de rolagem -->
+    <!-- autoplay faz com que o audio se reproduza sozinho -->
+    <audio controls autoplay>
+        <source src="meu_audio.mp3" type="audio/mp3">
+        <source src="meu_audio.ogg" type="audio/ogg">        
+    </audio>
+
+</body>
+</html>

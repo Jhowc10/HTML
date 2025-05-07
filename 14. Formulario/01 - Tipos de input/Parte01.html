@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <form  action="test.php" method="get" name="Meu_formulario"></form>
+        <!-- action="" metodo que você irá utilizar para armazenar os dados inceridos pelo eusuário -->
+
+        <!-- 
+        method="" pode ser get(obter) ou (port) postar. o get não é seguro e também é limitado em 2.024 caracteres, usado para buscas. 
+         post é seguro e ilimitado, aconselhado a se usar em senhas 
+        -->
+  
+        Login: <input type="text" name="login" id="" value="" maxlength="40" minlength="3">
+
+        <!-- Nunc esquecer do atributo name="" nas tags form e input  -->
+        <!-- maxlength="" limita a quantidade maxima de caracteres -->
+        <!-- minlength="" limita a quantidade minima de caracteres -->
+
+        <hr><br>
+        <h2>Caixa para por senha "password"</h2>
+        <p>
+            Senha:<input type="password" name="senha" id="" value="" maxlength="10" minlength="5">
+        </p>
+
+        <hr><br>
+        <h2>Caixa de opção de seleção "radio"</h2>
+        <p>
+            Sexo:<br>
+            <input type="radio" name="sexo" id="" value="M">Masculino
+            <input type="radio" name="sexo" id="" value="F">Feminino
+        </p>
+
+        <hr><br>
+        <h2>Caixa de seleção "checkbox"</h2>
+        <p>
+            Deseja receber informações por:<br>
+            <input type="checkbox" name="email" id="#" checked>E-mail
+            <input type="checkbox" name="fone" id="#">Fone
+            <input type="checkbox" name="correio" id="#">Correio
+        </p>
+
+        <hr><br>
+        <h2>Caixa de seleção de cor "color"</h2>
+        <p>
+            Selecione uma cor de sua preferencia:
+            <input type="color" name="color" id="#">
+        </p>
+
+        <hr><br>
+        <h2>Caixa de seleção para datas "date"</h2>
+        <p>
+            Selecione uma data:
+            <input type="date" name="data" id="#">
+        </p>
+
+        <hr><br>
+        <!-- Podemos adicionar restrições ás datas utimizando max e min -->
+        <p>
+            Selecione uma data antes de 27/08/2023:
+            <input type="date" name="data_2011" id="#" max="2023-08-27">
+        </p>
+
+        <hr><br>
+        <p>Selecione uma data depois de 27/08/2023<input type="date" name="data_2012" id="#" min="2023-08-26"></p>
+
+        <hr><br>
+        <h2>Campo para selecionar data e horário "datetime-local"</h2>
+        <p>
+            Selecione uma data e um horário:
+            <input type="datetime-local" name="data_hora_local" id="#">
+        </p>
+
+        <hr><br>
+        <h2>Campo para entrada de email "email"</h2>
+        <p>
+            Digite seu email:
+            <input type="email" name="email" id="#">
+        </p>
+
+        <hr><br>
+        <h2>Campo de entrada para mês e ano "month"</h2>
+        <p>
+            Selecione o mês e o ano de seu nascimento:
+            <input type="month" name="nascimento" id="#">
+        </p>
+
+        <hr><br>
+        <h2>Campo de entrada somentepara numeros "number"</h2>
+        <p>
+            Selecione qualquer numero:
+            <input type="number" name="numeros" id="#">
+        </p>
+
+        <!--Podemos restringilos utilizando o max e o min -->
+        <hr><br>
+        <p>
+            Selecione um número de 1 a 10:
+            <input type="number" name="numeros" id="#" max="10" min="1">
+        </p>
+
+    </form>
+    
+</body>
+</html>

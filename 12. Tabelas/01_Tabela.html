@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de tabela</title>
+</head>
+<body>
+    <!--Criação de uma tabela-->
+    <table summary="Esta taf permite que seja colocado o sumário do conteudo da tabela">
+       
+            <!--<caption> Título da tabela-->
+            <caption>Criação da Tabela em HTML</caption>
+
+                <!--<thead>Este  é o cabeçalho da tabela-->
+                <thead>
+                  
+                    <!--<tr> Indica a criação de uma linha (tr=table row) ou (linha da tabela)-->
+                    <tr>
+
+                        <!--<th>Indica a criação de um cabeçalho da linha (th = table head) ou (cabeçalho da linha)-->
+                        <th colspan="4">Tabela de Preços</th>    
+                    </tr>
+                </thead>
+
+                <!--<tfoot> Indica o rodapé da tabela-->
+                <tfoot>
+                    <tr>
+
+                        <!--<td colspan="4"></td> criação de celula-->
+                        <td colspan="3">Essa é uma célula expandida (mesclada em linha)</td>    
+                    </tr>
+                </tfoot>  
+                
+            <!--Indica o inicio do corpo da tabela-->
+            <tbody>
+                <tr>
+
+                    <!--Abaixo a celula expandida em colula-->
+                    <td rowspan="2">Produtos</td>
+                    <td>DVD</td>
+                    <td>Video Game</td>
+                    <td>Violão</td>
+                </tr>
+                <tr>
+                    <td>R$ 150,00</td>
+                    <td>R$ 2.300,00</td>
+                    <td>R$ 380,00</td>
+                </tr>
+            </tbody>    
+    </table>
+</body>
+</html>

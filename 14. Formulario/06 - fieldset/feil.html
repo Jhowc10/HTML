@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="test.php" method="post" name="meu_formulario">
+        <fieldset>
+            <legend>Login</legend>
+            <p>
+                Login: <input type="text" name="login" id="#">
+                Senha: <input type="password" name="senha" id="#">              
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Outras Informações</legend>
+            Sexo:<br>
+            <input type="radio" name="sexo" id="#" value="M" required>Masculino
+            <input type="radio" name="sexo" id="#" value="F" required>Feminino
+            <!-- required = diz que é um campo obrigatório, o formulário não é enviado se ele não estiver preenchido -->
+            <p>
+                Deseja receber informações por:<br>
+                <input type="checkbox" name="email" id="#" checked>E-mail
+                <input type="tel" name="telefone" id="#" checked>telefone
+                <input type="checkbox" name="correio" id="#" checked>Correio
+            </p>
+            <p>
+                Selecione uma cor:
+                <input type="color" name="cor" id="#">
+            </p>
+            <p>
+            <p>Selecione uma data antes de 01/01/2012: <input type="date" name="data_2011" max="2011-12-31">
+            </p>
+            <p>
+                Selecione uma data depois de 01/01/2012: <input type="date" name="data_2012" min="2012-01-02">
+            </p>
+            <p>
+                Selecione uma data e um horário: <input type="datetime-local" name="data_hora_local">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+    </p>
+
+    <p>
+        Digite os números ou use as setas:
+        <input type="number" name="numero" id="#" min="1" max="100" step="10"></p>
+        <!-- step="" - serve para definir de quanto em quanto quer que os numeros vão -->
+
+        <p>
+            Digite apenas números minusculos:
+            <input type="text" name="texto" id="#" required pattern="[a-z]\s"></p>
+    </form>
+    
+</body>
+</html>

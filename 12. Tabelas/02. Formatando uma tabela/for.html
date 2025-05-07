@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando uma tabela</title>
+    <style>
+        table, th, td{
+            border: 1px solid #0f0;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Legenda da tabela</caption>
+        <colgroup>
+        <col span="3" style="background-color: #ff0;">
+        <col style="background-color: #ff0;">
+        </colgroup>
+    
+        <tr> <!-- Linha 1 da tabela -->
+            <th rowspan="3"> Cabeçalho de uma tabela com rowspan = 3</th>
+        </tr>
+        <tr> <!-- Linha 2  da tabela -->
+            <td>Conteúdo 1 da linha 2</td>
+            <td>Conteúdo 2 da linha 2</td>
+            <td>Conteúdo 3 da linha 2</td>
+        </tr>
+        <tr> <!-- Linha 3 da tabela-->
+            <td>Conteúdo 1 da linha 3</td>
+            <td>Conteúdo 2 da linha 3</td>
+            <td>Conteúdo 3 da linha 3</td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
